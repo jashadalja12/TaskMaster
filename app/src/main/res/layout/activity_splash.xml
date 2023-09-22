@@ -1,0 +1,41 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+   android:layout_width="match_parent"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="420dp"
+        android:text="Task Master"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-322dp"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="Embark your journey with productivity" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="155dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="-280dp"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/baseline_task_alt_24" />
+
+
+</LinearLayout>
